@@ -4,14 +4,19 @@
   <meta charset="UTF-8">
   <title>Justice Physics: HumanOS 2.0</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; }
-    nav { background: #111; padding: 10px; position: fixed; width: 100%; top: 0; z-index: 1000; }
-    nav a { color: #fff; margin: 0 15px; text-decoration: none; }
-    section { padding: 80px 20px; min-height: 100vh; }
-    h1, h2 { color: #222; }
-    .timeline-container { display: flex; overflow-x: auto; padding: 20px; background: #fafafa; }
-    .timeline-item { flex: 0 0 auto; margin: 0 20px; padding: 10px; border: 1px solid #ccc; border-radius: 8px; background: #fff; cursor: pointer; }
-    .timeline-item:hover { background: #e0f7fa; }
+    body { font-family: 'Open Sans', sans-serif; margin: 0; background: #F5F5F5; color: #111; }
+    nav { background: #111; padding: 15px; position: fixed; width: 100%; top: 0; z-index: 1000; }
+    nav a { color: #fff; margin: 0 20px; text-decoration: none; font-weight: bold; }
+    nav a:hover { color: #E62B1E; }
+    
+    section { padding: 100px 40px; min-height: 100vh; }
+    h1, h2 { font-family: 'Montserrat', sans-serif; color: #E62B1E; }
+    p { font-size: 18px; line-height: 1.6; }
+    
+    .intro { background: linear-gradient(135deg, #E62B1E, #111); color: #fff; text-align: center; }
+    .timeline-container { display: flex; overflow-x: auto; padding: 20px; background: #fff; }
+    .timeline-item { flex: 0 0 auto; margin: 0 20px; padding: 15px; border: 2px solid #E62B1E; border-radius: 8px; background: #F5F5F5; cursor: pointer; transition: 0.3s; }
+    .timeline-item:hover { background: #E62B1E; color: #fff; }
     .video-container { text-align: center; margin: 20px 0; }
     iframe { width: 80%; height: 400px; border: none; }
   </style>
